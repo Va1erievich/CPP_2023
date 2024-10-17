@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+    int j = 1;
+    int z = 0;
+   printf ("Из чисел от 1 до 1000 с шагом 4 выделили те, которые делятся на 7:");
+    do{
+        
+        j = j + 4;
+        if (j%7==0)
+        if (j<1000)
+        (z = z + j, printf ("; ""%d",j));
+       
+    }
+    while (j<1000);
+    printf ("Сумма этих чисел:""%d", z);
+    return 0;
+
+}
