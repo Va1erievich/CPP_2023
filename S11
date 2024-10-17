@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+    int j = 1;
+    int z = 0;
+    printf ("Числа от 1 до 100 с делением  на 3:");
+    while(i<=100){
+        if (i%3==0)
+        printf ("; ""%d",i);
+        i=i+1;
+    }
+    return 0;
+
+}
