@@ -5,8 +5,9 @@ int main () {
 
 string num[10]={"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
-int i; cin>>i;
-cout<<num[i]<<endl;
+int i;
+    cin>>i;
+    cout<<num[i]<<endl;
 
 return 0;
 }
