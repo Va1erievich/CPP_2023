@@ -5,13 +5,14 @@ using namespace std;
 int main () 
 {
 
-int A, B; cin>>A>>B;
+int A, B; 
+    cin>>A>>B;
     ofstream output ("output.txt");
 
-if (output.is_open()){
-    for(int i = A ; i <= B ; i++)
-output<<3 * i<<"\n";
+if (output.is_open())
+    {
+    for(int i = A ; i <= B ; i++);
+    output<<3 * i<<"\n";
 }
-
 return 0;
 }
