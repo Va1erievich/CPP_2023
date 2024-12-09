@@ -3,15 +3,14 @@
 using namespace std;
 
 int main () {
-
-char str[51];
+    char str[51];
     cin>>str;
-char *s; s = str;
+    char *s; s = str;
 for(int i = 0; i < strlen(str); i++) {
 *(s + i) += 1;
-    cout<<*(s + i);
+cout<<*(s + i);
 }
-    cout<<"\n";
+cout<<"\n";
 
 return 0;
 }
